@@ -1,5 +1,6 @@
 # Multi Early stopping 
 
+'''
 import torch
 import numpy as np
 
@@ -40,7 +41,7 @@ class EarlyStopping:
     def save_checkpoint(self, model):
         torch.save(model.state_dict(), self.path)
         torch.cuda.empty_cache()
-
+'''
 
 # Stack  
  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/pytorch-EE4C2C?style=flat&logo=pytorch&logoColor=white"/>
