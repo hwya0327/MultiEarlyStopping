@@ -48,7 +48,7 @@ class EarlyStopping:
 
 # Introduction
 
-Supports early termination based on Pareto optimality, recording when all losses are improved when multi-task learning and calculating various losses
+Supports early termination based on Pareto optimality, recording when all losses are improved when multi-task learning and calculating various losses.
 
 # Laboratory
 
